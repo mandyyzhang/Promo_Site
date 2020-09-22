@@ -1,0 +1,29 @@
+html{ /*by default html and body will automatically add margin and padding*/
+  margin: 0px; /*on the outside*/
+  padding: 0px; /*on the inside*/
+}
+/* ------------------------------------------------------------------------- */
+body{
+  background-image: url('dynamite.jpg');
+  background-repeat: no-repeat; /*does not repeat the loaded image*/
+  background-attachment: fixed; /*so that the background does not move as the
+  user scrolls*/
+  background-size: cover; /*scale the width and height of a responsive
+  background image to be the same or bigger size than the screen*/
+
+  text-align: center;
+  color: #fff; /*font color*/
+  font-size: 17px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* ------------------------------------------------------------------------- */
+.main{
+  padding: 200px;
+}
+
+div.main img{
+  width: 50%;
+  height: auto;
+}
