@@ -10,6 +10,7 @@ body{
   user scrolls*/
   background-size: cover; /*scale the width and height of a responsive
   background image to be the same or bigger size than the screen*/
+  background-position: center, center;
 
   text-align: center;
   color: #fff; /*font color*/
